@@ -6,8 +6,7 @@ var people = [
 	{name: "Roma", age: 15, sex: "male", city: "Moscow"},
 	{name: "Alice", age: 21, sex: "female", city: "Moscow"}];
 console.log("Name men with age < 25 and age > 18:");
-console.log(
-	people.filter(function(person) {
+console.log(people.filter(function(person) {
 		if (person.sex == "male" && person.age < 25 && person.age > 18)
 			return person;
 	}));
